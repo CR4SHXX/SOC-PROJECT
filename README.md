@@ -55,6 +55,17 @@ Je cherche egalement a evaluer le fonctionnement de cette chaine defensive a tra
 
 ## 3. Outils et technologies
 
+| Categorie | Outils | Role |
+|---|---|---|
+| SIEM / XDR | Wazuh | Supervision, collecte et detection |
+| SOAR | Shuffle | Automatisation et orchestration |
+| Gestion des incidents | TheHive | Gestion et suivi des cas |
+| Analyse et enrichissement | Cortex | Analyse des observables |
+| Infrastructure | Docker, Docker Compose | Deploiement des services |
+| Collecte des evenements | Wazuh Agent, Sysmon | Surveillance des endpoints |
+| Simulation d'attaques | Atomic Red Team, MITRE Caldera | Tests des capacites defensives |
+| Framework | MITRE ATT&CK | Classification des techniques d'attaque |
+
 ## 4. Fonctionnement du SOC
 
 ## 5. Supervision et detection des menaces
